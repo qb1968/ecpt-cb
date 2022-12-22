@@ -17,7 +17,7 @@ const Home = () => {
                 <h5>Elite Care Physical Therapy was founded in 2014 and is the premiere facility in Chesapeake Beach Maryland we offer a variety of therapeutic services such as orthopedic and joint replacement rehabilitation, post surgical and neurological care, sports medicine, work and auto injuries as well as other injuries not listed.</h5>
            
             </p>
-             <img style={{ width: 255, height: 280,padding:10 }} classname="outdoor" src={myImage} alt=""></img>
+             <img class="sign" src={myImage} alt="Logo"></img>
         </div>
         <div className="head">
             <h2>Fight back pain without surgery</h2>
