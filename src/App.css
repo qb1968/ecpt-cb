@@ -1,10 +1,19 @@
 .mine{
   display: flex;
+flex-direction: row;
   justify-content: center;
   background-color: #7fb8cb;
 }
 
+.image{
+  height: 50%;
+  width: 50%;
+}
 
+.award{
+  width: 30%;
+ display: flex;
+}
 
 .nav.container{
   width:630px;

@@ -3,13 +3,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import myLogo from '../assets/logo.jpg'
+import Logo from '../assets/winner.jpeg'
 
 
 const Nav1 = () => {
   return (
     <>
        <div className='mine'>
-       <img classname="image" src={myLogo} alt=""></img>
+       <img class="image" src={myLogo} alt=""></img>
+       <img class= "award" src={Logo} alt=""/>
+
        </div>
        <Navbar  >
       <Container className='nav'>
