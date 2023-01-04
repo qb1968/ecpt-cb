@@ -17,9 +17,9 @@ const Nav1 = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" >
             <Nav.Link href="/">Home</Nav.Link>
-            
-            <NavDropdown title="About" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/services">Services</NavDropdown.Item>
+            <Nav.Link href='/services'>Services</Nav.Link>
+            {/* <NavDropdown id="basic-nav-dropdown">
+              
               <NavDropdown.Item href="/screenings">
                 Complimentary Screenings
               </NavDropdown.Item>
@@ -30,20 +30,14 @@ const Nav1 = () => {
               <NavDropdown.Item href="/modalities">
                 Modalities
               </NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Patient Forms" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/back-injury">Back Injury</NavDropdown.Item>
-              <NavDropdown.Item href="/neck-injury">
-                Neck Injury
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/upper-extremity">Upper Extremities(hand,wrist,elbow,etc.)</NavDropdown.Item>
-              <NavDropdown.Item href="/lower-extremity">
-                Lower Extremity(knee,foot,ankle,hip,etc.)
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="/team">Our Team</Nav.Link>
+            </NavDropdown> */}
+            <Nav.Link href='/products'>Products</Nav.Link>
+            <Nav.Link href='/forms'>Patient Forms</Nav.Link>
+             
+            
+            <Nav.Link href="/testimonials">Testimonials</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
-            <Nav.Link href="/location">Location</Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

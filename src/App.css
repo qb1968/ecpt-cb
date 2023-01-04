@@ -7,7 +7,7 @@
 
 
 .nav.container{
-  width:620px;
+  width:630px;
   
   font-weight: bolder;
   border:black;
@@ -22,6 +22,7 @@ nav.navbar{
   display: flex;
   align-items: center;
   background-color: #7fb8cb;
+  width: 100%;
   
 }
 
@@ -67,13 +68,28 @@ margin-right: 5rem;
   height: 250px;;
 }
 
+.welcome{
+  display: flex;
+  font-size: 102px;
+  margin-left: 32rem;
+  font-family:'Cedarville Cursive',cursive;
+}
+
 .main1{
   width:100%;
   background-color: #7fb8cb;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 1rem;
   
   
+}
+
+.comp{
+  display: flex;
+  text-align: center;
+  width: 50%;
 }
 
 .head1{
@@ -98,14 +114,14 @@ margin-right: 5rem;
 
 .we{
   display: flex;
-  margin-right:3rem;
+  margin-left:1.5rem;
   justify-content:center;
   text-decoration: underline;
 }
 
 .we1{
   display: flex;
-  margin-left:0.1rem;
+  margin-left:1.5rem;
   justify-content:center;
   text-decoration: underline;
 }
@@ -114,6 +130,7 @@ margin-right: 5rem;
   display:flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-left:25rem;
   padding: 1rem;
   
@@ -131,8 +148,115 @@ margin-right: 5rem;
 }
 
 li{
+  font-size: larger;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.modality{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+}
+
+.compliment{
+  display: flex;
+  flex-direction: column;
+  background-color:#7fb8cb;
+  align-items: center;
+}
+
+.pcomp{
+  display: flex;
+  flex-direction: column;
+}
+
+.ecomp{
+  display: flex;
+  flex-direction: column;
+  
+  text-align: center;
+}
+
+.prod{
+  padding: 2rem;
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: large;
 }
+
+.head2{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.head3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a{
+  font-size: 18px;
+  color: black;
+}
+
+.testy{
+  padding: 3rem;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+  background-color: #7fb8cb;
+  height: 100vh;
+  
+}
+
+.test{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 6rem;
+  
+}
+
+.contact{
+  padding:2rem;
+  background-color: #7fb8cb;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  
+}
+
 @media only screen and (max-width: 600px) {
   
  .mine{

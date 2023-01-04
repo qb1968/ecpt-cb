@@ -1,9 +1,13 @@
 import React from "react"
+import myImage from "../assets/modality.jpg"
 
 const Services = () => {
     return(
     <>
         <div className="main1">
+            <h1>Complimentary Screenings Available</h1>
+            <p className="comp"><h5>Elite Care Physical Therapy offers free injury screenings. If you have been dealing with a strain, sprain, ache or pain, haven’t made it to the doctor yet and would like more information about your injury, we can perform an assessment and provide you with suggestions or recommendations for future care and answer any questions you may have. Screenings are completed by a licensed provider or certified athletic trainer.
+*Screenings are not a complete evaluation or physical therapy treatment.</h5></p>
             <div className="head1">
                 <h1>Services</h1>
             </div>
@@ -69,10 +73,15 @@ const Services = () => {
             </ol>
             </div>
             </div> 
-            
-            
+            <div className="modality">
+                <h1>Modality Services Available</h1>
+                <img class='mo' src={myImage} alt="moda"></img>
+            </div>
+           
         </div>
-        
+         
+            
+            
         </>
     )
 }

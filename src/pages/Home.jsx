@@ -9,6 +9,7 @@ const Home = () => {
     return(
         <>
         <div className="main">
+            <h1 className="welcome">Welcome to the Elite</h1>
         <div className="head">
             <h2>Physical Therapy in Calvert County</h2>
         </div>
