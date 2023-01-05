@@ -7,7 +7,7 @@ import myImage4 from '../assets/room-2.jpg'
 
 const Home = () => {
     return(
-        <>
+        
         <div className="main">
             <h1 className="welcome">Welcome to the Elite</h1>
         <div className="head">
@@ -63,7 +63,7 @@ Regardless of the type or location of your injury, Elite Care Physical Therapyâ€
              <img style={{ width: 255, height: 250,padding:10 }} classname="outdoor" src={myImage4} alt=""></img>
         </div>
         </div>
-        </>
+       
     )
 }
 

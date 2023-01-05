@@ -3,7 +3,7 @@ import myImage from "../assets/modality.jpg"
 
 const Services = () => {
     return(
-    <>
+   
         <div className="main1">
             <h1>Complimentary Screenings Available</h1>
             <p className="comp"><h5>Elite Care Physical Therapy offers free injury screenings. If you have been dealing with a strain, sprain, ache or pain, haven’t made it to the doctor yet and would like more information about your injury, we can perform an assessment and provide you with suggestions or recommendations for future care and answer any questions you may have. Screenings are completed by a licensed provider or certified athletic trainer.
@@ -82,7 +82,7 @@ const Services = () => {
          
             
             
-        </>
+        
     )
 }
 

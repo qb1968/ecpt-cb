@@ -1,5 +1,5 @@
 import React from "react"
-import {Routes,  Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Nav1 from './components/Nav'
 import Home from './pages/Home'
 import Services from './pages/Services'
@@ -13,23 +13,25 @@ import './App.css'
 
 const App = () => {
   return (
-    <>
+   <Router>
     <Nav1/>
        
   <Routes>
+
+  
        
-        <Route  exact path="/" element={<Home/>}/>
-        <Route  exact path="/services" element={<Services/>}/>
+        <Route exact path="/"  element={<Home/>}/>
+        <Route path="/services" element={<Services/>}/>
        
-        <Route exact path="/products" element={<Purchase/>}/>
+        <Route  path="/products" element={<Purchase/>}/>
         
-        <Route exact path="/forms" element={<Back/>}/>
-        <Route exact path="testimonials" element={<Test/>}/>
-        <Route exact path="contact" element={<Contact/>}/>
+        <Route  path="/forms" element={<Back/>}/>
+        <Route  path="testimonials" element={<Test/>}/>
+        <Route  path="contact" element={<Contact/>}/>
 
       </Routes>
       
-    </>
+   </Router>
   )
 }
 
