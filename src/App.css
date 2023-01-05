@@ -16,23 +16,33 @@ flex-direction: row;
  display: flex;
 }
 
-.nav.container{
+/* .nav.container{
   width:630px;
   
   font-weight: bolder;
   border:black;
-}
+} */
 
 a.nav-link{
   font-size: larger;
   color: #035a77;
+  font-weight: bold;
+}
+
+.me-auto{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
 nav.navbar{
   display: flex;
+  
   align-items: center;
   background-color: #7fb8cb;
   width: 100%;
+  
   
 }
 

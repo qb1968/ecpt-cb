@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import myLogo from '../assets/logo.jpg'
 import Logo from '../assets/winner.jpeg'
 
@@ -15,9 +15,8 @@ const Nav1 = () => {
 
        </div>
        <Navbar  >
-      <Container className='nav'>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+      
+       
           <Nav className="me-auto" >
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href='/services'>Services</Nav.Link>
@@ -42,8 +41,8 @@ const Nav1 = () => {
             <Nav.Link href="/contact">Contact</Nav.Link>
             
           </Nav>
-        </Navbar.Collapse>
-      </Container>
+        
+      
     </Navbar>
     </>
   );

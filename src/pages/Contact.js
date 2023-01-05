@@ -1,19 +1,13 @@
 import React from "react"
-import { GoogleMap, LoadScript,Marker } from '@react-google-maps/api'
+
 
 
 const Contact = () => {
-    const mapStyles = {        
-        height: "50vh",
-        width: "40%"};
+    
       
       
 
-      const position = {
-        
-        lat: 38.69824,
-        lng: -76.53299
-      }
+     
 
      
 
@@ -38,7 +32,9 @@ const Contact = () => {
          src="https://storage.googleapis.com/maps-solutions-s20gnpb9k9/locator-plus/0uve/locator-plus.html"
          width="60%" height="50%"
          style={{border: 0}}
-         loading="lazy">
+         loading="lazy"
+         title="Elite Care">
+         
         </iframe>
   
          </div>
