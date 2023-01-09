@@ -5,6 +5,7 @@ import PDF2 from "../assets/notice-of-privacy.pdf"
 import PDF3 from "../assets/Neck.pdf"
 import PDF4 from "../assets/Upper.pdf"
 import PDF5 from "../assets/Lower.pdf"
+import PDF6 from "../assets/JFLS-8.pdf"
 
 const Back = () => {
     return(
@@ -12,7 +13,7 @@ const Back = () => {
         <div className="compliment">
             <div className="rules">
                 <h1>Please bring the following items to your first appointment.</h1>
-                <ol style={{listStyleType: 'decimal'}}>
+                <ol style={{listStyleType: 'decimal',padding:'1rem'}}>
                     <li>Drivers License or Photo ID</li>
                     <li>Insurance Info</li>
                     <li>Physical Therapy Prescription or Referral (if required by your insurance, please contact us if you have questions).</li>
@@ -69,6 +70,21 @@ const Back = () => {
                 <a href = {PDF1} target = "_blank">ECPT Patient Medical History Form</a>
                 <a href = {PDF4} target = "_blank">Upper Extremity Form</a>
                 <a href = {PDF5} target = "_blank">Lower Extremity Form</a>
+                </div>
+            </div>
+        </div>
+        <div className="compliment">
+            <div className="head2">
+                <h1>Jaw Pain/TMD</h1>
+            </div>
+            <div className="pcomp">
+                <p className="ecomp">
+                    
+                </p>
+                <div className="forms">
+                <a href = {PDF} target = "_blank">ECPT Notice of Privacy Practices Form</a>
+                <a href = {PDF1} target = "_blank">ECPT Patient Medical History Form</a>
+                <a href= {PDF6} target = "_blank">Jaw Functional Limitation Scale - 8</a>
                 </div>
             </div>
         </div>

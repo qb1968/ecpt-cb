@@ -15,7 +15,11 @@ import Logo from '../assets/winner.jpeg'
 const Nav1 = () => {
   return (
     <>
+       <div className='mine0'>
+        <h1 className="welcome">Welcome to</h1>
+       </div>
        <div className='mine'>
+       
        <img class="image" src={myLogo} alt=""></img>
        <img class= "award" src={Logo} alt=""/>
 

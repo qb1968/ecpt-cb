@@ -5,15 +5,14 @@ const Services = () => {
     return(
    
         <div className="main1">
-            <h1>Complimentary Screenings Available</h1>
-            <p className="comp"><h5>Elite Care Physical Therapy offers free injury screenings. If you have been dealing with a strain, sprain, ache or pain, haven’t made it to the doctor yet and would like more information about your injury, we can perform an assessment and provide you with suggestions or recommendations for future care and answer any questions you may have. Screenings are completed by a licensed provider or certified athletic trainer.
-*Screenings are not a complete evaluation or physical therapy treatment.</h5></p>
+            <h1>Complimentary Screenings </h1>
+            <p className="comp"><h5>Elite Care Physical Therapy at Chesapeake Beach offers free injury screenings. If you have been dealing with a nagging strain, sprain, general ache or pain, or any other general musculoskeletal condition you would like more information on, we can perform an assessment of your condition and provide you with recommendations for appropriate care. Screenings are completed by a licensed professional, however are not a substitute for a comprehensive evaluation or treatment.</h5></p>
             <div className="head1">
-                <h1>Services</h1>
+                <h1>Specializing in the treatment of:</h1>
             </div>
             <div className="pserv">
                 <p className="eserv">
-                    <h5>Elite Care Physical Therapy offers a variety of therapy services to treat patients of all ages, backgrounds and interests. Our team has a wide range of experience treating professional and recreational athletes as well as injuries from work, auto accidents and surgery.</h5>
+                    <h5>We offer a wide variety of therapy services and treat patients of all ages and backgrounds. We work with athletes of all ages and levels, work related injuries, motor vehicle accidents, post-surgical patients, fall risk/balance issues, and individuals looking to improve their functional performance/activities of daily living tolerance.</h5>
                 </p>
             </div>
             <div>
@@ -22,7 +21,7 @@ const Services = () => {
              
             
             <ol style={{ listStyle: 'none' }}>
-            <li>Athletic Training Services</li>
+            
             <li>Cervical/Lumbar Traction</li>
             <li>Concussion Treatment</li>
             <li>Functional Exercise Programs</li>
@@ -64,17 +63,18 @@ const Services = () => {
             <li>Neck, Shoulder, and Arm Pain</li>
             <li>Neurologic Problems</li>
             <li>On-the-job Injuries</li>
-            <li>Pediatric Rehab</li>
+            
             <li>Pre/Post Operative Cases</li>
             <li>Sports Injuries</li>
             <li>Stiffness & Weakness</li>
             <li>Vestibular/Balance Disorders</li>
-            <li>Women’s Wellness</li>
+            
             </ol>
             </div>
             </div> 
             <div className="modality">
                 <h1>Modality Services Available</h1>
+                <p style={{display:'flex', alignItems:'center'}}> <h5 style={{textAlign:"center",fontStyle:'oblique'}}>For a nominal charge during your treatment or after discharge we offer supervised modality application to assist with symptom resolution. No prescription is required, and services may be qualified expenses through your HSA card.</h5></p>
                 <img class='mo' src={myImage} alt="moda"></img>
             </div>
            

@@ -1,3 +1,13 @@
+.mine0{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7fb8cb;
+}
+
+
+
 .mine{
   display: flex;
 flex-direction: row;
@@ -95,10 +105,12 @@ font-style: oblique;
 }
 
 .welcome{
+  padding:1rem;
   display: flex;
-  font-size: 102px;
-  margin-left: 32rem;
-  font-family:'Cedarville Cursive',cursive;
+  font-size: 110px;
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
 }
 
 .main1{
@@ -182,6 +194,7 @@ li{
 .modality{
   display:flex;
   flex-direction: column;
+  
   align-items: center;
 }
 
@@ -191,10 +204,17 @@ li{
 }
 
 .compliment{
+  
+  padding:2rem;
   display: flex;
   flex-direction: column;
   background-color:#7fb8cb;
   align-items: center;
+}
+
+.rules{
+  margin-left: 5rem;
+  padding:1rem;
 }
 
 .pcomp{
@@ -238,9 +258,10 @@ a{
 }
 
 .testy{
-  padding: 3rem;
+  
   font-style: italic;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   
@@ -256,6 +277,7 @@ a{
   flex-direction: column;
   align-items: center;
   margin-left: 6rem;
+  width: 50%;
   
 }
 
