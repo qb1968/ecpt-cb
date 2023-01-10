@@ -15,8 +15,8 @@ const Home = () => {
         </div>
         <div className="p1">    
             <p className="elite">
-                <h5>Elite Care Physical Therapy at Chesapeake Beach was founded in 2017 and serves the Anne Arundel/Calvert County area. Winner of multiple patient-nominated awards for best Physical Therapy office in Calver County 3 years in a row, we treat a variety of orthopedic and neurological conditions. We invite you to see what makes our office unique and why</h5>
-                <h5 style={{fontWeight:800,fontStyle:"italic"}}>"It's not just Physical Therapy, its Elite Care"</h5>
+                <h5>Elite Care Physical Therapy at Chesapeake Beach was founded in 2017 and serves the Anne Arundel/Calvert County area. Winner of multiple patient-nominated awards for best Physical Therapy office in Calvert County 3 years in a row, we treat a variety of orthopedic and neurological conditions. We invite you to see what makes our office unique and why</h5>
+                <h5  className="special" style={{fontWeight:800,fontStyle:"italic",fontFamily:'Great Vibes'}}>"It's not just Physical Therapy, its Elite Care"</h5>
            
             </p>
              <img class="sign" src={myImage} alt="Logo"></img>

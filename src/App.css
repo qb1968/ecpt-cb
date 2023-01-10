@@ -112,6 +112,10 @@ font-style: oblique;
   height: 250px;;
 }
 
+.special{
+font-family:'Great Vibes', cursive;
+}
+
 .welcome{
   padding:1rem;
   display: flex;
