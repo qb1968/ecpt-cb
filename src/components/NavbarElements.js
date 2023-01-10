@@ -11,17 +11,18 @@ padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
 /* Third Nav */
 /* justify-content: flex-start; */
+@media screen and (max-width: 600px){
+	width:100%
+}
 `;
 
 export const NavLink = styled(Link)`
 color: #7fb8cb;
 font-size: 35px;
-
 font-family: fantasy;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
@@ -48,10 +49,10 @@ export const NavMenu = styled.div`
 display: flex;
 align-items: center;
 margin-right: -20px;
-/* Second Nav */
+ Second Nav 
 /* margin-right: 24px; */
-/* Third Nav */
-/* width: 100vw;
+ Third Nav 
+ width: 100vw;
 white-space: nowrap; */
 @media screen and (max-width: 768px) {
 	display: none;

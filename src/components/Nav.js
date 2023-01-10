@@ -25,8 +25,7 @@ const Nav1 = () => {
 
        </div>
        <Nav>
-        <Bars />
-  
+        
         <NavMenu>
           <NavLink to='/' activeStyle>
             Home
@@ -48,24 +47,7 @@ const Nav1 = () => {
           </NavLink>
           </NavMenu>
           </Nav>
-       {/* <Navbar  >
-      
        
-          <Nav className="me-auto" >
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href='/services'>Services</Nav.Link>
-            
-            <Nav.Link href='/products'>Products</Nav.Link>
-            <Nav.Link href='/forms'>Patient Forms</Nav.Link>
-             
-            
-            <Nav.Link href="/testimonials">Testimonials</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-            
-          </Nav>
-        
-      
-    </Navbar> */}
     </>
   );
 }
