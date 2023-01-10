@@ -74,7 +74,7 @@ const Services = () => {
             </div> 
             <div className="modality">
                 <h1>Modality Services Available</h1>
-                <p style={{display:'flex', alignItems:'center'}}> <h5 style={{textAlign:"center",fontStyle:'oblique',width:'50%',marginLeft:'30rem'}}>For a nominal charge during your treatment or after discharge we offer supervised modality application to assist with symptom resolution. No prescription is required, and services may be qualified expenses through your HSA card.</h5></p>
+                <p style={{display:'flex', alignItems:'center'}}> <h5 style={{textAlign:"center",fontStyle:'oblique',width:'40%',marginLeft:'35rem',padding:'1rem'}}>For a nominal charge during your treatment or after discharge we offer supervised modality application to assist with symptom resolution. No prescription is required, and services may be qualified expenses through your HSA card.</h5></p>
                 <img class='mo' src={myImage} alt="moda"></img>
             </div>
            
