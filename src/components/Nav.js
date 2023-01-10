@@ -1,7 +1,6 @@
 import {
   Nav,
   NavLink,
-  Bars,
   NavMenu,
   
 } from './NavbarElements.js'
@@ -26,23 +25,24 @@ const Nav1 = () => {
        </div>
        <Nav>
         
+  
         <NavMenu>
-          <NavLink to='/' activeStyle>
+          <NavLink to='/' >
             Home
           </NavLink>
-          <NavLink to='/services' activeStyle>
+          <NavLink to='/services' >
             Services
           </NavLink>
-          <NavLink to='/products' activeStyle>
+          <NavLink to='/products' >
             Products
           </NavLink>
-          <NavLink to='/forms' activeStyle>
+          <NavLink to='/forms' >
             Forms
           </NavLink>
-          <NavLink to='/testimonials' activeStyle>
+          <NavLink to='/testimonials' >
             Testimonials
           </NavLink>
-          <NavLink to='/contact' activeStyle>
+          <NavLink to='/contact' >
             Contact
           </NavLink>
           </NavMenu>
