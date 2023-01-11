@@ -6,16 +6,16 @@ const Services = () => {
    
         <div className="main1">
             <h1>Complimentary Screenings </h1>
-            <p className="comp"><h5>Elite Care Physical Therapy at Chesapeake Beach offers free injury screenings. If you have been dealing with a nagging strain, sprain, general ache or pain, or any other general musculoskeletal condition you would like more information on, we can perform an assessment of your condition and provide you with recommendations for appropriate care. Screenings are completed by a licensed professional, however are not a substitute for a comprehensive evaluation or treatment.</h5></p>
+            <p className="comp"><h5 className="serv">Elite Care Physical Therapy at Chesapeake Beach offers free injury screenings. If you have been dealing with a nagging strain, sprain, general ache or pain, or any other general musculoskeletal condition you would like more information on, we can perform an assessment of your condition and provide you with recommendations for appropriate care. Screenings are completed by a licensed professional, however are not a substitute for a comprehensive evaluation or treatment.</h5></p>
             <div className="head1">
                 <h1>Specializing in the treatment of:</h1>
             </div>
             <div className="pserv">
                 <p className="eserv">
-                    <h5>We offer a wide variety of therapy services and treat patients of all ages and backgrounds. We work with athletes of all ages and levels, work related injuries, motor vehicle accidents, post-surgical patients, fall risk/balance issues, and individuals looking to improve their functional performance/activities of daily living tolerance.</h5>
+                    <h5 className="serv">We offer a wide variety of therapy services and treat patients of all ages and backgrounds. We work with athletes of all ages and levels, work related injuries, motor vehicle accidents, post-surgical patients, fall risk/balance issues, and individuals looking to improve their functional performance/activities of daily living tolerance.</h5>
                 </p>
             </div>
-            <div>
+            <div className="col">
             <div className="left">
                 <h5 className="we">Our Services Include</h5>
              
@@ -74,7 +74,7 @@ const Services = () => {
             </div> 
             <div className="modality">
                 <h1>Modality Services Available</h1>
-                <p style={{display:'flex', alignItems:'center'}}> <h5 style={{fontStyle:'oblique',width:'43%',marginLeft:'33rem',padding:'1rem'}}>For a nominal charge during your treatment or after discharge we offer supervised modality application to assist with symptom resolution. No prescription is required, and services may be qualified expenses through your HSA card.</h5></p>
+                <p  className="m1" style={{display:'flex', alignItems:'center'}}> <h5 className="m2" style={{fontStyle:'oblique',width:'43%',marginLeft:'33rem',padding:'1rem'}}>For a nominal charge during your treatment or after discharge we offer supervised modality application to assist with symptom resolution. No prescription is required, and services may be qualified expenses through your HSA card.</h5></p>
                 <img class='mo' src={myImage} alt="moda"></img>
             </div>
            

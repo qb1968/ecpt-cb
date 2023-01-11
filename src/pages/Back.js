@@ -6,6 +6,7 @@ import PDF3 from "../assets/Neck.pdf"
 import PDF4 from "../assets/Upper.pdf"
 import PDF5 from "../assets/Lower.pdf"
 import PDF6 from "../assets/JFLS-8.pdf"
+import Footer from "./Footer"
 
 const Back = () => {
     return(
@@ -90,6 +91,7 @@ const Back = () => {
         </div>
         </div>
         </div>
+        <Footer/>
         </>
     )
 }

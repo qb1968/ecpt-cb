@@ -20,10 +20,11 @@ const Contact = () => {
              <img style={{width:350,height:350,marginLeft:"19rem"}} class="sign1" src={myImage} alt="Logo"></img>
              <h1 style={{padding:'1rem'}}>Please do not hesitate to call us with any questions</h1>
           </div>
-          <div style={{display:'flex'}}>
+          <div className="add" style={{display:'flex'}}>
             <ol className="address" style={{padding:'1rem',marginRight:'5rem'}}>
-              <li>Elite Care Physical Therapy at Chesapeake Beach </li>
+              <li className="add1">Elite Care Physical Therapy at Chesapeake Beach </li>
               <li>8501 Bayside Road</li>
+              <li>Suite C-4</li>
               <li>Chesapeake Beach, MD 20732</li>
               <li>Phone 443 646 5514</li>
               <li>Fax 410 834 5504</li>
@@ -51,16 +52,17 @@ const Contact = () => {
          
        
      </LoadScript>     */}
-    
+    <div className="maptoo">
         <iframe
+        className="map"
          src="https://storage.googleapis.com/maps-solutions-s20gnpb9k9/locator-plus/0uve/locator-plus.html"
-         width="60%" height="40%"
-         style={{border: 0}}
-         loading="lazy"
+        //  width="60%" height="40%"
+        //  style={{border: 0}}
+        //  loading="lazy"
          title="Elite Care">
          
         </iframe>
-  
+  </div>
          </div>
 
       

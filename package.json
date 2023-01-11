@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "react-responsive": "^9.0.2",
     "styled-components": "^5.3.6"
   }
 }
