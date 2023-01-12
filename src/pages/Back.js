@@ -91,7 +91,7 @@ const Back = () => {
         </div>
         </div>
         </div>
-        <Footer/>
+        
         </>
     )
 }

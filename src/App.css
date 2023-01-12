@@ -128,11 +128,13 @@ font-style: oblique;
 .special{
 font-family:'Great Vibes', cursive;
 font-size: 45px;
+font-weight: bold;
 color:#007297
 }
 .special1{
 font-family:'Great Vibes', cursive;
 font-size: 45px;
+font-weight:bold;
 color:#007297;
 margin-left: 8rem;
 }
@@ -217,7 +219,7 @@ margin-left: 8rem;
 }
 
 li{
-  font-size: larger;
+  font-size: large;
   font-style: oblique;
   font-weight: bold;
 }
@@ -353,7 +355,7 @@ a{
 }
 
 .map{
-  display: flex;
+  
   width:650px;
   height:550px;
 }
@@ -409,16 +411,20 @@ a{
     
     width: 100%;
   }
-  .left{
-    padding: 0;
+  .col{
     display:flex;
-    margin-left:2rem;
-    width:70%;
+  }
+  .we,.we1{
+    font-size: medium;
+  }
+  .left{
+    
+    padding: 0;
+    align-items:center;
   }
   .right{
     padding: 0;
-    display: flex;
-    margin-right:2rem;
+    align-items:center;
   }
   li{
     text-align: center;
@@ -498,7 +504,7 @@ a{
     margin-left:5rem;
   }
 }
-@media screen and (max-width:1280px) {
+ @media screen and (max-width:1280px) { 
   .welcome{
     font-size:75px;
   }
@@ -627,7 +633,7 @@ a{
     width:100%;
   }
   .map{
-    width:550px;
+    width:350px;
     height:550px;
   }
 }
