@@ -12,12 +12,14 @@ const Home = () => {
             
         <div className="head">
             <h2>Serving the therapy needs of Northern Calvert/Southern Anne Arundel counties.</h2>
+            
         </div>
         <div className="p1">    
             <p className="elite">
-                <h5>Elite Care Physical Therapy at Chesapeake Beach was founded in 2017 and serves the Anne Arundel/Calvert County area. Winner of multiple patient-nominated awards for best Physical Therapy office in Calvert County 3 years in a row, we treat a variety of orthopedic and neurological conditions. We invite you to see what makes our office unique and why </h5>
                 <h5  className="special" >"It 's not just Physical Therapy, </h5>
                 <h5 className="special1" >it 's Elite Care"</h5>
+                <h5 >Elite Care Physical Therapy at Chesapeake Beach was founded in 2017 and serves the Anne Arundel/Calvert County area. Winner of multiple patient-nominated awards for best Physical Therapy office in Calvert County 3 years in a row, we treat a variety of orthopedic and neurological conditions. We invite you to see what makes our office unique. </h5>
+                
             </p>
              <img class="sign" src={myImage} alt="Logo"></img>
         </div>
@@ -26,7 +28,7 @@ const Home = () => {
         </div>
         <div className="p1">    
             <p className="elite">
-                <h5> Physical Therapy is highly effective at decreasing pain and improving function/quality of life. There is an increasing emphasis on being active through all phases of life. Physical Therapy is the most conservative treatment available without the unwanted side effects of medications or having to deal with recovery from surgery.</h5>
+                <h5 style={{alignItems:'center'}}> Physical Therapy is highly effective at decreasing pain and improving function/quality of life. There is an increasing emphasis on being active through all phases of life. Physical Therapy is the most conservative treatment available without the unwanted side effects of medications or having to deal with recovery from surgery.</h5>
            
             </p>
              <img style={{ width: 255, height: 250,padding:10 }} class="outdoor" src={myImage1} alt=""></img>

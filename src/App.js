@@ -17,6 +17,18 @@ import './App.css'
 
 
 const App = () => {
+
+  const isMobileDevice = MediaQuery({
+    query: "(min-device-width: 480px)",
+  });
+
+  const isLaptop = MediaQuery({
+    query: "(min-device-width: 1024px)",
+  });
+
+  const isTabletDevice = MediaQuery({
+    query: "(min-device-width: 768px)",
+  });
  
   return (
     <>
@@ -40,7 +52,7 @@ const App = () => {
         <Route  path="contact" element={<Contact/>}/>
 
       </Routes>
-      <Footer/>
+     {<Footer/>} 
    </Router>
    
    </>

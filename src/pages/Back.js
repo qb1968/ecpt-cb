@@ -14,8 +14,8 @@ const Back = () => {
         <div className="compliment">
             <div className="rules">
                 <h1>Please bring the following items to your first appointment.</h1>
-                <ol style={{listStyleType: 'decimal',padding:'1rem'}}>
-                    <li>Drivers License or Photo ID</li>
+                <ol style={{listStyleType: 'decimal',display:'flex'}}>
+                    <li >Drivers License or Photo ID</li>
                     <li>Insurance Info</li>
                     <li>Physical Therapy Prescription or Referral (if required by your insurance, please contact us if you have questions).</li>
                     <li>New Patient Paperwork; see list below</li>
@@ -24,71 +24,58 @@ const Back = () => {
                 </ol>
             </div>
             <div className="head2">
-                <h2>Please print, fill out, and bring in the following forms that pertain to your injury to your first appointment.</h2>
+                <h2 style={{width:'60%',marginLeft:'26rem'}}>Please print, fill out, and bring in the following forms that pertain to your injury to your first appointment.</h2>
                 
             </div>
             <div className="head3">
                 <h1>Back Injury</h1>
             
-            <div className="pcomp">
+            
                  
-                <p className="ecomp">
-                   
-                </p>
+               
                 <div className="forms">
                 <a href = {PDF} target = "_blank">ECPT Notice of Privacy Practices Form</a>
                 <a href = {PDF1} target = "_blank">ECPT Patient Medical History Form</a>
                 <a href = {PDF2} target = "_blank">Back Index Form</a>
                 </div>
-               </div> 
+                
             </div>
         
-        <div className="compliment">
-            <div className="head2">
+        
+            <div className="head3">
                 <h1>Neck Injury</h1>
-            </div>
-            <div className="pcomp">
-                <p className="ecomp">
-                    
-                </p>
+           
+           
                 <div className="forms">
                 <a href = {PDF} target = "_blank">ECPT Notice of Privacy Practices Form</a>
                 <a href = {PDF1} target = "_blank">ECPT Patient Medical History Form</a>
                 <a href = {PDF3} target = "_blank">Neck Index Form</a>
                 </div>
             
-        </div>
-        <div className="compliment">
-            <div className="head2">
-                <h1>Upper and Lower Extremities</h1>
             </div>
-            <div className="pcomp">
-                <p className="ecomp">
-                    
-                </p>
+        
+            <div style={{marginLeft:'12rem'}}className="head3">
+                <h1>Upper and Lower Extremities</h1>
+            
+            
                 <div className="forms">
                 <a href = {PDF} target = "_blank">ECPT Notice of Privacy Practices Form</a>
                 <a href = {PDF1} target = "_blank">ECPT Patient Medical History Form</a>
                 <a href = {PDF4} target = "_blank">Upper Extremity Form</a>
                 <a href = {PDF5} target = "_blank">Lower Extremity Form</a>
-                </div>
+                 </div>
+            
             </div>
-        </div>
-        <div className="compliment">
-            <div className="head2">
-                <h1>Jaw Pain/TMD</h1>
-            </div>
-            <div className="pcomp">
-                <p className="ecomp">
-                    
-                </p>
+        
+            <div className="head3">
+                <h1 >Jaw Pain/TMD</h1>
+            
                 <div className="forms">
                 <a href = {PDF} target = "_blank">ECPT Notice of Privacy Practices Form</a>
                 <a href = {PDF1} target = "_blank">ECPT Patient Medical History Form</a>
                 <a href= {PDF6} target = "_blank">Jaw Functional Limitation Scale - 8</a>
                 </div>
-            </div>
-        </div>
+            
         </div>
         </div>
         
