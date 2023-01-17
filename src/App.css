@@ -24,7 +24,7 @@ flex-direction: row;
  
   width: 15%;
  display: flex;
- height:
+ 
 }
 
 .nav{
@@ -265,7 +265,9 @@ li{
 
 
 .prod{
+  width: 75%;
   padding: 2rem;
+  margin-left: 23rem;;
 }
 
 ol{
