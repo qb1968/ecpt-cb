@@ -24,6 +24,9 @@ const Nav1 = () => {
           <Link className='links' to='/' >
             Home
           </Link>
+          <Link className='links' to='/about' >
+            About
+          </Link>
           <Link className='links' to='/services' >
             Services
           </Link>

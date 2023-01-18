@@ -11,6 +11,7 @@ import Test from "./pages/Testimony"
 import Contact from "./pages/Contact"
 import Footer from "./pages/Footer"
 import './App.css'
+import About from "./pages/About"
 
 
 
@@ -43,6 +44,7 @@ const App = () => {
   
        
         <Route exact path="/"  element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route path="/services" element={<Services/>}/>
        
         <Route  path="/products" element={<Purchase/>}/>

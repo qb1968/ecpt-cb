@@ -32,9 +32,8 @@ flex-direction: row;
 background: #0a779e;
 height: 95px;
 display: flex;
-justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
-z-index: 12;
+justify-content: center;
+
 }
 
 .links{
@@ -43,7 +42,7 @@ background-color: #0a779e;
 font-size: 35px;
 font-family: fantasy;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 padding: 0 1rem;
 height: 100%;
@@ -88,30 +87,48 @@ nav.navbar{
   flex-direction: column;
  
   width:100%;
-  padding:2rem;
+  padding:5rem;
   
 }
 
 .head{
   display:flex;
   
-  padding: 10px;
-  margin-left:19rem;
+  
+  margin-left:22rem;
+}
+.head2{
+  display:flex;
+ margin-top:10px;
+  margin-left:21rem;
 }
 
 .p1{
   
-  margin: 0;
+  
   width: 85%;
   display: flex;
   
 }
 
 .elite{
-  font-size: large;
-  margin-left:20rem;
-
   
+  font-size: large;
+  margin-left:22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+.elite1{
+  
+  font-size: large;
+  margin-left:22rem;
+  display: flex;
+  flex-direction: column;
+  
+  text-indent: -10px;
   
 }
 
@@ -150,6 +167,25 @@ margin-left: 8rem;
   font-family: 'Cedarville Cursive', cursive;
   font-family: 'Great Vibes', cursive;
   font-weight: bold;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rem;
+  padding:25px;
+  
+}
+.about1{
+  display: flex;
+  flex-direction: row;
+  width:90%;
+
+}
+
+.bio{
+  width:20%;
+  
 }
 
 .main1{
@@ -192,14 +228,14 @@ margin-left: 8rem;
 
 .we{
   display: flex;
-  margin-left:1.5rem;
+  margin-left:-5rem;
   justify-content:center;
   text-decoration: underline;
 }
 
 .we1{
   display: flex;
-  margin-left:1.5rem;
+  margin-left:-0.1rem;
   justify-content:center;
   text-decoration: underline;
 }
@@ -650,4 +686,8 @@ a{
     width:350px;
     height:550px;
   }
+}
+
+@media screen and(max-width: 1280px){
+  
 }

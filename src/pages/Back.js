@@ -24,7 +24,7 @@ const Back = () => {
                 </ol>
             </div>
             <div className="head2">
-                <h2 style={{width:'60%',marginLeft:'26rem'}}>Please print, fill out, and bring in the following forms that pertain to your injury to your first appointment.</h2>
+                <h2 style={{width:'60%',marginLeft:'5rem'}}>Please print, fill out, and bring in the following forms that pertain to your injury to your first appointment.</h2>
                 
             </div>
             <div className="head3">

@@ -17,7 +17,7 @@ const Contact = () => {
          <div className="contact">
           <div className="contact1">
              <h1>Contact Us</h1>
-             <img style={{width:350,height:350,marginLeft:"19rem"}} class="sign1" src={myImage} alt="Logo"></img>
+             <img style={{width:650,height:450,marginLeft:"10rem"}} class="sign1" src={myImage} alt="Logo"></img>
              <h1 style={{padding:'1rem'}}>Please do not hesitate to call us with any questions</h1>
           </div>
           <div className="add" style={{display:'flex'}}>
