@@ -28,10 +28,10 @@ const Contact = () => {
               <li>Chesapeake Beach, MD 20732</li>
               <li>Phone 443 646 5514</li>
               <li>Fax 410 834 5504</li>
-              <li>Email: </li>
+              <li ><a href ='mailto:beach@ecpt-cb.com'>Email:beach@ecpt-cb.com </a></li>
             </ol>
             <ol className="address1" style={{padding:'1rem',marginRight:'5rem'}}>
-              <li>   Office Hours  </li>
+              <li >   Office Hours  </li>
               <li>Monday 8am-5pm</li>
               <li>Tuesday 8am-12pm</li>
               <li>Wednesday 8am-5pm</li>
