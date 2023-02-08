@@ -405,6 +405,7 @@ a{
 .foot{
   text-align: center;
   font-weight:bold;
+  position: fixed;
 }
 .cs{
   margin-left:25rem;
@@ -424,6 +425,10 @@ a{
   padding: 1rem;
   align-items: center;
   margin-left:19rem;
+}
+.prods{
+  margin-left:25rem;
+  list-style-type: decimal;
 }
 
  @media screen and (max-width:480px){
@@ -565,7 +570,14 @@ a{
     margin-left: 2rem;
   }
   .ecomp{
-    width:55rem;
+    width:50rem;
+  }
+  .prod{
+    width:50rem;
+    margin-left:5rem;
+  }
+  .prods{
+    margin-left:20rem;
   }
   .compliment{
     width:45rem;

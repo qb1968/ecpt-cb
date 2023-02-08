@@ -14,7 +14,7 @@ const Purchase = () => {
                     </div>
                     
                 </p>
-                <ol style={{listStyleType: 'decimal',marginLeft:'25rem'}}>
+                <ol class="prods" >
                     <li><a href="https://biofreeze.com">Biofreeze</a></li>
                     <li><a href="https://rocktape.com"> Rock Tape/Kinesiology tape</a></li>
                     <li><a href="https://theraband.com">Theraband/Resistive bands</a></li>
