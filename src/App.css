@@ -403,9 +403,10 @@ a{
   height:550px;
 }
 .foot{
+  
   text-align: center;
   font-weight:bold;
-  position: fixed;
+  
 }
 .cs{
   margin-left:25rem;
@@ -502,12 +503,13 @@ a{
 
   }
   .foot{
+    margin-left: 15em;
+    width:20rem;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
     font-weight:bold;
-    margin:0;
-    position: relative;
+    
+    
   }
   .about{
     display: flex;
