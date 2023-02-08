@@ -406,6 +406,25 @@ a{
   text-align: center;
   font-weight:bold;
 }
+.cs{
+  margin-left:25rem;
+}
+.mod{
+  margin-left:25rem;
+}
+.m1{
+  display: flex;
+}
+.m2{
+  font-style: oblique;
+  width:43%;
+  margin-left:24.5rem;
+}
+.t1{
+  padding: 1rem;
+  align-items: center;
+  margin-left:19rem;
+}
 
  @media screen and (max-width:480px){
   .mine0{
@@ -422,25 +441,25 @@ a{
     width: 49rem;
   }
   .welcome{
-    margin: 0;
+    
     display: flex;
     font-size:85px
   }
   .image{
-   margin-left:3.5rem;
-    width: 70%;
+   margin-left:2.5rem;
+    width: 75%;
     display: flex;
   }
   
   .award{
    
-    width: 60%;
+    width: 50%;
    display: flex;
    
   }
   .nav{
-    margin-left:1rem;
-    width:52.5rem;
+    margin-left: 1rem;
+    width:53rem;
       margin-top:2rem;
     background: #0a779e;
     
@@ -483,5 +502,102 @@ a{
     text-align: center;
     font-weight:bold;
     margin:0;
+    position: relative;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    margin-left:1rem;
+    width:52rem
+    
+  }
+  .about1{
+    display: flex;
+    flex-direction: row;
+    width:52rem;
+  
+  }
+  .bio{
+    width:45%;
+  }
+  .main1{
+    width:45rem;
+  }
+  .cs{
+    margin: 0;
+  }
+  .comp{
+    margin:0;
+    width:100%;
+    margin-bottom:1rem;
+  }
+  .head1{
+    margin:0;
+  }
+  .eserv{
+    width:100%;
+    margin:0;
+  }
+  .left{
+    margin:0;
+  }
+  .we1{
+    margin-right:5rem;
+  }
+  .right{
+    margin:0;
+    float: none;
+  }
+ 
+  .mod{
+    margin:auto;
+  }
+  .m1{
+    margin:auto;
+  }
+  .m2{
+    margin: auto;
+    width:100%;
+    margin-bottom:1rem;
+  }
+  .mo{
+    width:100%;
+    margin-left: 2rem;
+  }
+  .ecomp{
+    width:55rem;
+  }
+  .compliment{
+    width:45rem;
+  }
+  .rules{
+    margin:0;
+  }
+  .head3{
+    width:45rem;
+    margin:0;
+  }
+  .testy{
+    width:45rem;
+  }
+  .t1{
+    width:40rem;
+  }
+  .please{
+    margin-left:10rem;
+  }
+  .contact{
+    width:45rem;
+  }
+  .address{
+    width:15rem;
+    margin-left:15.5rem;
+  }
+  .address1{
+    width:20rem;
+  }
+  .map{
+    margin-left:10rem;
+    width:750px;
   }
  }

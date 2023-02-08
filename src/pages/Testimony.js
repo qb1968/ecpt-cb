@@ -4,7 +4,7 @@ const Test = () => {
     return (
         <>
         <div className="testy">
-            <h2 className="t1" style={{padding:'1rem',alignItems:'center',marginLeft:'19rem'}}>We pride ourselves on our patient feedback and once again welcome you to see what makes us unique and separates us from other physical therapy experiences.</h2 >
+            <h2 className="t1" >We pride ourselves on our patient feedback and once again welcome you to see what makes us unique and separates us from other physical therapy experiences.</h2 >
             <div className="test">
             <h2 style={{fontWeight:'bold'}}>I Give Them 5 Stars</h2>
             <h3 >"I have graduated Early from PT because of Charlie and his team!" -PW</h3>

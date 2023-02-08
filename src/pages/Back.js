@@ -54,7 +54,7 @@ const Back = () => {
             
             </div>
         
-            <div style={{marginLeft:'12rem'}}className="head3">
+            <div className="head3">
                 <h1>Upper and Lower Extremities</h1>
             
             
