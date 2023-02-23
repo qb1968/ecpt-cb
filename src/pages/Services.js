@@ -5,7 +5,7 @@ const Services = () => {
     return(
    
         <div className="main1">
-            <h1 class="cs" >Complimentary Screenings </h1>
+            <h1 class="cs1" >Complimentary Screenings </h1>
             <p className="comp"><h5 className="serv">Elite Care Physical Therapy at Chesapeake Beach offers free injury screenings. If you have been dealing with a nagging strain, sprain, general ache or pain, or any other general musculoskeletal condition you would like more information on, we can perform an assessment of your condition and provide you with recommendations for appropriate care. Screenings are completed by a licensed professional, however are not a substitute for a comprehensive evaluation or treatment.</h5></p>
             <div className="head1">
                 <h1>Specializing in the treatment of:</h1>

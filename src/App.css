@@ -173,19 +173,20 @@ margin-left: 8rem;
 .about{
   display: flex;
   flex-direction: column;
-  margin-left: 15rem;
+  
   padding:25px;
   
 }
 .about1{
   display: flex;
   flex-direction: row;
-  width:90%;
+ 
 
 }
 
 .bio{
-  width:20%;
+  width: 350px;
+  height: 350;
   
 }
 
@@ -333,6 +334,9 @@ a{
   color: blue;
 }
 
+.sign1{
+  margin-left:12rem;
+}
 .testy{
   
   font-style: italic;
@@ -409,7 +413,7 @@ a{
   
 }
 .cs{
-  margin-left:25rem;
+  margin-left:20rem;
 }
 .mod{
   margin-left:25rem;
@@ -431,6 +435,372 @@ a{
   margin-left:25rem;
   list-style-type: decimal;
 }
+@media screen and (max-width:1450px){
+  .mine0{
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .mine{
+    
+    display: flex;
+    
+    
+    
+  }
+  .welcome{
+    
+    display: flex;
+    font-size:85px
+  }
+  .image{
+   
+    width: 70%;
+    display: flex;
+  }
+  
+  .award{
+   
+    width: 40%;
+   display: flex;
+   
+  }
+  .nav{
+    
+    
+      margin-top:2rem;
+    background: #0a779e;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .head{
+    display: flex;
+    margin: 0;
+   
+  }
+  
+  .p1{
+    width:100%;
+  }
+  .elite{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: large;
+  }
+  .head2{
+    width:55rem;
+    margin:0;
+  }
+  .p1{
+    display: flex;
+    
+  }
+  .elite1{
+    margin:0;
+
+  }
+  .foot{
+    margin-left: 15em;
+    width:20rem;
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    
+    
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    margin-left:1rem;
+   
+    
+  }
+  .about1{
+    display: flex;
+    flex-direction: row;
+    width:90%
+  
+  }
+  .bio{
+    width:450px;
+    height:450px;
+  }
+  .cs1{
+    margin: 0;
+  }
+  .cs{
+    margin: 0;
+  }
+  .comp{
+    margin:0;
+    width:100%;
+    margin-bottom:1rem;
+  }
+  .head1{
+    margin:0;
+  }
+  .eserv{
+    width:100%;
+    margin:0;
+  }
+  .left{
+    margin:0;
+  }
+  .we1{
+    margin-right:47rem;
+  }
+  .right{
+    margin:0;
+    float: none;
+  }
+ 
+  .mod{
+    margin:auto;
+  }
+  .m1{
+    margin:auto;
+  }
+  .m2{
+    margin: auto;
+    width:100%;
+    margin-bottom:1rem;
+  }
+  .mo{
+    width:70%;
+    margin-left: 15rem;
+  }
+  .ecomp{
+    width:50rem;
+  }
+  .prod{
+    width:50rem;
+    margin-left:5rem;
+  }
+  .prods{
+    margin-left:20rem;
+  }
+  .compliment{
+    width:45rem;
+  }
+  .rules{
+    margin:0;
+  }
+  .head3{
+    width:45rem;
+    margin:0;
+  }
+  .testy{
+    width:45rem;
+  }
+  .t1{
+    width:40rem;
+  }
+  .please{
+    margin-left:10rem;
+  }
+  .contact{
+    width:45rem;
+  }
+  .address{
+    width:15rem;
+    margin-left:15.5rem;
+  }
+  .address1{
+    width:20rem;
+  }
+  .map{
+    margin-left:10rem;
+    width:750px;
+  }
+ }
+@media screen and (max-width:767px){
+  .mine0{
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .mine{
+    
+    display: flex;
+    
+    
+    
+  }
+  .welcome{
+    
+    display: flex;
+    font-size:85px
+  }
+  .image{
+   
+    width: 57%;
+    display: flex;
+  }
+  
+  .award{
+   
+    width: 40%;
+   display: flex;
+   
+  }
+  .nav{
+    margin:auto;
+    width:98%;
+      margin-top:2rem;
+    background: #0a779e;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .head{
+    display: flex;
+    margin: 0;
+   
+  }
+  
+  .p1{
+    width:100%;
+  }
+  .elite{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: large;
+  }
+  .head2{
+    
+    margin:0;
+  }
+  .p1{
+    display: flex;
+    
+  }
+  .elite1{
+    margin:0;
+
+  }
+  .foot{
+    margin-left: 15em;
+    width:20rem;
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    
+    
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    margin-left:1rem;
+   
+    
+  }
+  .about1{
+    display: flex;
+    flex-direction: row;
+    width:100%
+  
+  }
+  .bio{
+    width:450px;
+    height:450px;
+  }
+  .cs1{
+    margin: 0;
+  }
+  .cs{
+    margin: 0;
+  }
+  .comp{
+    margin:0;
+    width:100%;
+    margin-bottom:1rem;
+  }
+  .head1{
+    margin:0;
+  }
+  .eserv{
+    width:100%;
+    margin:0;
+  }
+  .left{
+    margin:0;
+  }
+  .we1{
+    margin-right:4rem;
+  }
+  .right{
+    margin:0;
+    float: none;
+  }
+ 
+  .mod{
+    margin:auto;
+  }
+  .m1{
+    margin:auto;
+  }
+  .m2{
+    margin: auto;
+    width:100%;
+    margin-bottom:1rem;
+  }
+  .mo{
+    width:100%;
+    margin:0;
+    
+  }
+  .ecomp{
+    width:50rem;
+  }
+  .prod{
+    margin:20px
+  }
+  .prods{
+    margin-left:15rem;
+  }
+  .compliment{
+    width:45rem;
+  }
+  .rules{
+    margin:0;
+  }
+  .head3{
+    width:45rem;
+    margin:0;
+  }
+  .testy{
+    margin:auto;
+    width:45rem;
+  }
+  .t1{
+    margin:auto;
+  }
+  .sign1{
+    margin-left:5rem;
+  }
+  .please{
+    margin-left:1rem;
+  }
+  .contact{
+    margin:auto;
+  }
+  .address{
+    width:20rem;
+    
+  }
+  .address1{
+    width:20rem;
+  }
+  .map{
+    margin-left:1rem;
+    width:650px;
+  }
+ }
 
  @media screen and (max-width:480px){
   .mine0{
