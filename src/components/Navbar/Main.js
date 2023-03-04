@@ -19,7 +19,7 @@ const Main = () => {
                 <div className="col-xl-2 col-lg-2">
                   <div className="logo">
                     <Link to="/">
-                      <img src={Img1} alt="logo" />
+                     <h1 style={{width:200,fontFamily: 'Great Vibes',fontSize:"50px"}}>Welcome to</h1>
                     </Link>
                   </div>
                 </div>
@@ -29,84 +29,24 @@ const Main = () => {
                       <ul>
                         <li className="has-sub">
                           <Link to="/">Home</Link>
-                          <ul>
-                            <li>
-                              <Link to="/">Home Page 01</Link>
-                            </li>
-                            <li>
-                              <Link to="/home-two">Home Page 02</Link>
-                            </li>
-                            <li>
-                              <Link to="/home-three">Home Page 03</Link>
-                            </li>
-                          </ul>
+                          
                         </li>
                         <li>
                           <Link to="/about">About Us</Link>
                         </li>
                         <li className="has-sub">
                           <Link to="/service">Services</Link>
-                          <ul>
-                            <li>
-                              <Link to="/service-details"> Facials</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Body Treatments</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details"> Mineral Baths</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Waxing</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Massage</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Geothermal Spa</Link>
-                            </li>
-                            <li>
-                              <Link to="/service">Services</Link>
-                            </li>
-                          </ul>
+                          
+                        </li>
+                        <li>
+                          <Link to="/product">Products</Link>
+                         
                         </li>
                         <li className="has-sub">
-                          <Link to="#">Pages</Link>
-                          <ul>
-                            <li>
-                              <Link to="/gallery">Gallery</Link>
-                            </li>
-
-                            <li>
-                              <Link to="/pricing">Pricing</Link>
-                            </li>
-                            <li>
-                              <Link to="/faq">Faq</Link>
-                            </li>
-                            <li>
-                              <Link to="/team">Team</Link>
-                            </li>
-                            <li>
-                              <Link to="/team-details">Team Details</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop">Shop</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop-details">Shop Details</Link>
-                            </li>
-                          </ul>
+                          <Link to="/blog">Forms</Link>
                         </li>
                         <li className="has-sub">
-                          <Link to="/blog">Blog</Link>
-                          <ul>
-                            <li>
-                              <Link to="/blog">Blog</Link>
-                            </li>
-                            <li>
-                              <Link to="/blog-details">Blog Details</Link>
-                            </li>
-                          </ul>
+                          <Link to="/blog">Testimonials</Link>
                         </li>
                         <li>
                           <Link to="/contact">Contact</Link>
@@ -116,17 +56,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="col-xl-3 col-lg-3 text-right d-none d-lg-block mt-25 mb-25 text-right text-xl-right">
-                  <div className="login">
-                    <ul>
-                      <li>
-                        <div className="second-header-btn">
-                          <Link to="/contact" className="btn">
-                            Book Appointment
-                          </Link>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+                 
                 </div>
                 <div className="col-12">
                   <div className="mobile-menu mean-container">
@@ -162,17 +92,7 @@ const Main = () => {
                           <ul style={{ display: mobile ? "block" : "none" }}>
                             <li className="has-sub">
                               <Link to="/">Home</Link>
-                              <ul style={{ display: show ? "block" : "none" }}>
-                                <li>
-                                  <Link to="/">Home Page 01</Link>
-                                </li>
-                                <li>
-                                  <Link to="/home-two">Home Page 02</Link>
-                                </li>
-                                <li>
-                                  <Link to="/home-three">Home Page 03</Link>
-                                </li>
-                              </ul>
+                             
                               <Link
                                 to="#"
                                 className={`mean-expand ${
@@ -192,38 +112,9 @@ const Main = () => {
 
                             <li className="has-sub">
                               <Link to="/service">Services</Link>
-                              <ul style={{ display: show1 ? "block" : "none" }}>
-                                <li>
-                                  <Link to="/service-details"> Facials</Link>
-                                </li>
-                                <li>
-                                  <Link to="/service-details">
-                                    Body Treatments
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link to="/service-details">
-                                    {" "}
-                                    Mineral Baths
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link to="/service-details">Waxing</Link>
-                                </li>
-                                <li>
-                                  <Link to="/service-details">Massage</Link>
-                                </li>
-                                <li>
-                                  <Link to="/service-details">
-                                    Geothermal Spa
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link to="/service">Services</Link>
-                                </li>
-                              </ul>
+                             
                               <Link
-                                to="#"
+                                to="/service"
                                 className={`mean-expand ${
                                   show1 && "mean-clicked"
                                 }`}
@@ -236,31 +127,8 @@ const Main = () => {
                               </Link>
                             </li>
                             <li className="has-sub">
-                              <Link to="#">Pages</Link>
-                              <ul style={{ display: show2 ? "block" : "none" }}>
-                                <li>
-                                  <Link to="/gallery">Gallery</Link>
-                                </li>
-
-                                <li>
-                                  <Link to="/pricing">Pricing</Link>
-                                </li>
-                                <li>
-                                  <Link to="/faq">Faq</Link>
-                                </li>
-                                <li>
-                                  <Link to="/team">Team</Link>
-                                </li>
-                                <li>
-                                  <Link to="/team-details">Team Details</Link>
-                                </li>
-                                <li>
-                                  <Link to="/shop">Shop</Link>
-                                </li>
-                                <li>
-                                  <Link to="/shop-details">Shop Details</Link>
-                                </li>
-                              </ul>
+                              <Link to="#">Products</Link>
+                              
                               <Link
                                 to="#"
                                 className={`mean-expand ${
@@ -275,15 +143,24 @@ const Main = () => {
                               </Link>
                             </li>
                             <li className="has-sub">
-                              <Link to="/blog">Blog</Link>
-                              <ul style={{ display: show3 ? "block" : "none" }}>
-                                <li>
-                                  <Link to="/blog">Blog</Link>
-                                </li>
-                                <li>
-                                  <Link to="/blog-details">Blog Details</Link>
-                                </li>
-                              </ul>
+                              <Link to="/blog">Forms</Link>
+                             
+                              <Link
+                                to="#"
+                                className={`mean-expand ${
+                                  show3 && "mean-clicked"
+                                }`}
+                                onClick={() =>
+                                  setshow3(show3 === true ? false : true)
+                                }
+                                style={{ fontSize: "18px" }}
+                              >
+                                +
+                              </Link>
+                            </li>
+                            <li className="has-sub">
+                              <Link to="/blog">Testimonials</Link>
+                             
                               <Link
                                 to="#"
                                 className={`mean-expand ${

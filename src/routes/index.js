@@ -18,6 +18,7 @@ import ShopDetails from '../components/Pages/ShopDetails/Main'
 import Blog from '../components/BlogMain/Blog/Main'
 import BlogDetails from '../components/BlogMain/BlogDetails/Main'
 import Contact from '../components/Contact/Main'
+import Products from '../components/HomeMain/Product'
 
 
 const Routing = () => {
@@ -48,7 +49,7 @@ const Routing = () => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/service" element={<Service />} />
         <Route path="/service-details" element={<ServiceDetails />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/product" element={<Products />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/team" element={<Team />} />

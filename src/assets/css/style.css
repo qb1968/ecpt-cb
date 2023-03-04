@@ -39,14 +39,20 @@ CSS Index
     src: local("blackjack"), url(../fonts/blackjack.otf) format('opentype')
     ;
 }
+@font-face {
+    font-family:"Blacksword" ;
+    src: local("Blacksword"), url(../fonts/Blacksword.otf) format('opentype')
+    ;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 
 /* 1. Theme default css */
  body {
-       font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	font-weight: normal;
-	color: #777;
+       font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	
 	font-style: normal;
      line-height: 26px;
 }
@@ -148,7 +154,7 @@ button {
 	outline: medium none;
 }
 a:hover {
-    color: #ff4f9d;
+    color: purple;
 }
 .box20 .title a{
     color: #fff;
@@ -169,12 +175,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'PT Serif', serif;
-	color: #00173c;
+    font-family: 'Oswald', sans-serif;
+	color: black;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 700;
-	text-transform: normal;
+	
 }
 h1 a,
 h2 a,
@@ -509,7 +515,7 @@ top: -3px;
     font-family: 'PT Serif', serif;
 }
 .main-menu ul li a::after {
-  content: "+";
+  
   margin-left: 10px;
   color: #ff4f9d;
 }
@@ -884,6 +890,7 @@ z-index: 2;
     display: none;
 }
 .header-three .menu-area {
+    background-color: #007297;
    margin-bottom: -106px;
 border-top: 0;
     position: relative;
@@ -1066,11 +1073,13 @@ background: #884cd2;
 }
 /* breadcrumb */
 .breadcrumb-area {
+
+background-color: #7fb8cb;
 background-size: cover;
 position: relative;
-min-height: 550px;
+min-height: 300px;
 background-repeat: no-repeat;
-background-color: #000;
+
 background-position: 0 bottom;
 }
 .breadcrumb-title {
@@ -1582,7 +1591,7 @@ bottom: 5px;
 .about-title > span {
 	font-size: 14px;
 	font-weight: 500;
-	text-transform: uppercase;
+	
 	color: #fff;
 	background: #ff4f9d;
 	height: 30px;
@@ -1596,9 +1605,16 @@ bottom: 5px;
     margin-bottom: 0 !important;
 }
 .about-title h5{
-   font-family: "blackjack";
-   font-weight: bold;
-   color:"#00729"
+    
+   font-family:"Great Vibes",cursive;
+   font-weight: bolder;
+   color:#007297;
+   font-size: 28px;
+   line-height:1.2;
+   letter-spacing: 5.5px;
+   text-transform: none;
+   
+   
     
 }
 .about-title .title-strong{
@@ -1754,10 +1770,8 @@ width: 50%;
 .sr-tw-ul li {
 float: left;
 width: 100%;
-padding: 30px;
-margin-bottom: 15px;
-     border-radius: 10px;
-    gap: 15px;
+
+    
 }
 .sr-tw-ul li:nth-child(2) {
   margin-left: -30px;
@@ -2002,7 +2016,7 @@ width: 66%;
 	color: #fff;
 }
 .section-title h5{
-  color: #ff4f9d;
+  color: black;
 text-transform: uppercase;
 font-size: 22px;
     margin-bottom: 15px;
@@ -5401,7 +5415,7 @@ display: flex;
     color: #fff;
 }
 .footer-bg {
-    color:#777;
+    color:#007297;
     background-position: center 0 !important;
     background-size: cover;
 }
@@ -5522,7 +5536,7 @@ margin-bottom: 10px;
 .f-insta ul li:hover a::before{top: 50%;opacity: 1;}
 .f-insta ul li:hover a::after{opacity: .6;}
 .copyright-wrap {
-background-color: #1b1a1a;
+background-color: #7fb8cb;
 color: #fff;
 font-size: 15px;
 border-radius: 10px 10px 0 0px;
@@ -5859,7 +5873,7 @@ text-align: left;
 }
 
 .main-menu .has-sub a:hover{
-	color:#ff4f9d;
+	color:#7fb8cb;
 }
 
 .main-menu .has-sub:hover > ul { visibility: visible; margin-top: 0px; opacity: 1;}
