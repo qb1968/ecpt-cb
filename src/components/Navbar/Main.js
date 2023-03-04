@@ -19,7 +19,15 @@ const Main = () => {
                 <div className="col-xl-2 col-lg-2">
                   <div className="logo">
                     <Link to="/">
-                     <h1 style={{width:200,fontFamily: 'Great Vibes',fontSize:"50px"}}>Welcome to</h1>
+                      <h1
+                        style={{
+                          width: 200,
+                          fontFamily: "Great Vibes",
+                          fontSize: "50px",
+                        }}
+                      >
+                        Welcome to
+                      </h1>
                     </Link>
                   </div>
                 </div>
@@ -29,18 +37,15 @@ const Main = () => {
                       <ul>
                         <li className="has-sub">
                           <Link to="/">Home</Link>
-                          
                         </li>
-                        <li>
+                        <li className="has-sub">
                           <Link to="/about">About Us</Link>
                         </li>
                         <li className="has-sub">
                           <Link to="/service">Services</Link>
-                          
                         </li>
-                        <li>
+                        <li className="has-sub">
                           <Link to="/product">Products</Link>
-                         
                         </li>
                         <li className="has-sub">
                           <Link to="/blog">Forms</Link>
@@ -48,16 +53,14 @@ const Main = () => {
                         <li className="has-sub">
                           <Link to="/blog">Testimonials</Link>
                         </li>
-                        <li>
+                        <li className="has-sub">
                           <Link to="/contact">Contact</Link>
                         </li>
                       </ul>
                     </nav>
                   </div>
                 </div>
-                <div className="col-xl-3 col-lg-3 text-right d-none d-lg-block mt-25 mb-25 text-right text-xl-right">
-                 
-                </div>
+                <div className="col-xl-3 col-lg-3 text-right d-none d-lg-block mt-25 mb-25 text-right text-xl-right"></div>
                 <div className="col-12">
                   <div className="mobile-menu mean-container">
                     <div className="mean-bar">
@@ -92,7 +95,7 @@ const Main = () => {
                           <ul style={{ display: mobile ? "block" : "none" }}>
                             <li className="has-sub">
                               <Link to="/">Home</Link>
-                             
+
                               <Link
                                 to="#"
                                 className={`mean-expand ${
@@ -112,7 +115,7 @@ const Main = () => {
 
                             <li className="has-sub">
                               <Link to="/service">Services</Link>
-                             
+
                               <Link
                                 to="/service"
                                 className={`mean-expand ${
@@ -127,8 +130,8 @@ const Main = () => {
                               </Link>
                             </li>
                             <li className="has-sub">
-                              <Link to="#">Products</Link>
-                              
+                              <Link to="/product">Products</Link>
+
                               <Link
                                 to="#"
                                 className={`mean-expand ${
@@ -144,7 +147,7 @@ const Main = () => {
                             </li>
                             <li className="has-sub">
                               <Link to="/blog">Forms</Link>
-                             
+
                               <Link
                                 to="#"
                                 className={`mean-expand ${
@@ -160,7 +163,7 @@ const Main = () => {
                             </li>
                             <li className="has-sub">
                               <Link to="/blog">Testimonials</Link>
-                             
+
                               <Link
                                 to="#"
                                 className={`mean-expand ${
