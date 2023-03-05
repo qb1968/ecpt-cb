@@ -50,9 +50,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link to="/blog">Forms</Link>
                         </li>
-                        <li className="has-sub">
-                          <Link to="/blog">Testimonials</Link>
-                        </li>
+                        
                         <li className="has-sub">
                           <Link to="/contact">Contact</Link>
                         </li>

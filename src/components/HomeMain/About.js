@@ -3,6 +3,7 @@ import BGImg1 from "../../assets/img/bg/about-bg.png";
 import { Link } from "react-router-dom";
 import Img from "../../assets/img/brand/charlie.jpg";
 import Breadcrumb from "../HomeMain/Bredcrumb"
+import Testimonial from "./Testimonial";
 
 const About = () => {
   return (
@@ -19,7 +20,7 @@ const About = () => {
       >
         <div className="container">
           <div className="row justify-content-center align-items-center">
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-8 col-md-12 col-sm-12">
               <div
                 className="about-content s-about-content  wow fadeInRight  animated"
                 data-animation="fadeInRight"
@@ -57,13 +58,14 @@ const About = () => {
                 <img
                   src={Img}
                   alt="img"
-                  style={{ width: 350, height: 350, marginLeft: "105px" }}
+                  style={{ width: 300, height: 350 }}
                 />
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Testimonial/>
     </>
   );
 };

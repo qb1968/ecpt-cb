@@ -19,6 +19,7 @@ import Blog from '../components/BlogMain/Blog/Main'
 import BlogDetails from '../components/BlogMain/BlogDetails/Main'
 import Contact from '../components/Contact/Main'
 import Products from '../components/HomeMain/Product'
+import Testimonial from '../components/HomeMain/Testimonial'
 
 
 const Routing = () => {
@@ -58,6 +59,7 @@ const Routing = () => {
         <Route path="/shop-details" element={<ShopDetails />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details" element={<BlogDetails />} />
+        
         <Route path="/contact" element={<Contact />} />
 
       </Routes>

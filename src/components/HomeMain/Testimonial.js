@@ -48,7 +48,7 @@ const Testimonial = () => {
         style={{
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundImage: `url(${BGImg7})`,
+          backgroundColor:"#007297",
         }}
       >
         <div className="container">
@@ -62,9 +62,7 @@ const Testimonial = () => {
                 <h5>Our Testimonial</h5>
                 <h2>What Our Clients Says</h2>
                 <p className="mt-15">
-                  Nullam posuere eros ex, vitae consequat ipsum semper cursus.
-                  In ut commodo eros. Vestibulum sed elit id orci rhoncus. Duis
-                  quis nunc eu augue efficitur suscipit.
+                We pride ourselves on our patient feedback and once again welcome you to see what makes us unique and separates us from other physical therapy experiences.
                 </p>
               </div>
             </div>
@@ -72,16 +70,15 @@ const Testimonial = () => {
               <Slider className="testimonial-active" {...testimonial}>
                 <div className="single-testimonial">
                   <div className="testi-author">
-                    <img src={Img1} alt="img" />
+                   
                     <div className="ta-info">
-                      <h6>Jina Nilson</h6>
+                      <h6>PW</h6>
                       <span>Client</span>
                     </div>
                   </div>
+                  <h5>I Give Them 5 stars</h5>
                   <p>
-                    “Phasellus aliquam quis lorem amet dapibus feugiat vitae
-                    purus vitae efficitur. Vestibulum sed elit id orci rhoncus
-                    ultricies. Morbi vitae semper consequat ipsum semper quam”.
+                    “I have graduated Early from PT because of Charlie and his team!”.
                   </p>
 
                   <div className="qt-img">
@@ -90,16 +87,14 @@ const Testimonial = () => {
                 </div>
                 <div className="single-testimonial">
                   <div className="testi-author">
-                    <img src={Img2} alt="img" />
+                    
                     <div className="ta-info">
-                      <h6>Braitly Dcosta</h6>
+                      <h6>HC</h6>
                       <span>Client</span>
                     </div>
                   </div>
                   <p>
-                    “Phasellus aliquam quis lorem amet dapibus feugiat vitae
-                    purus vitae efficitur. Vestibulum sed elit id orci rhoncus
-                    ultricies. Morbi vitae semper consequat ipsum semper quam”.
+                    “Thank you for helping me get back on my feet so quickly. You know what to do”.
                   </p>
 
                   <div className="qt-img">
@@ -108,16 +103,14 @@ const Testimonial = () => {
                 </div>
                 <div className="single-testimonial">
                   <div className="testi-author">
-                    <img src={Img1} alt="img" />
+                    
                     <div className="ta-info">
-                      <h6>Jina Nilson</h6>
+                      <h6>MC</h6>
                       <span>Client</span>
                     </div>
                   </div>
                   <p>
-                    “Phasellus aliquam quis lorem amet dapibus feugiat vitae
-                    purus vitae efficitur. Vestibulum sed elit id orci rhoncus
-                    ultricies. Morbi vitae semper consequat ipsum semper quam”.
+                    “I have been to several physical therapy places. This one is by far the best. They give you the therapy you need”.
                   </p>
 
                   <div className="qt-img">
@@ -126,16 +119,30 @@ const Testimonial = () => {
                 </div>
                 <div className="single-testimonial">
                   <div className="testi-author">
-                    <img src={Img2} alt="img" />
+                    
                     <div className="ta-info">
-                      <h6>Braitly Dcosta</h6>
+                      <h6>PS</h6>
                       <span>Client</span>
                     </div>
                   </div>
                   <p>
-                    “Phasellus aliquam quis lorem amet dapibus feugiat vitae
-                    purus vitae efficitur. Vestibulum sed elit id orci rhoncus
-                    ultricies. Morbi vitae semper consequat ipsum semper quam”.
+                    “Just finished my therapy and I am much improved. The staff is friendly, helpful, and very capable. Highly recommend”.
+                  </p>
+
+                  <div className="qt-img">
+                    <img src={Icon} alt="img" />
+                  </div>
+                </div>
+                <div className="single-testimonial">
+                  <div className="testi-author">
+                    
+                    <div className="ta-info">
+                      <h6>KM</h6>
+                      <span>Client</span>
+                    </div>
+                  </div>
+                  <p>
+                    “Three months after starting PT I have full use of my dominant arm back. Personal care and attention are given to each patient”.
                   </p>
 
                   <div className="qt-img">

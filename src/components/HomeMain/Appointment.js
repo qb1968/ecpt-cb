@@ -12,7 +12,7 @@ const Appointment = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundImage: `url(${BGImg3})`,
+          backgroundColor:"#7fb8cd",
         }}
       >
         <div className="container">
@@ -113,21 +113,26 @@ const Appointment = () => {
                 </div>
                 <h3>Opening Hours</h3>
                 <div className="text">
-                  <div className="left-text">Monday to Friday:</div>
-                  <div className="right-text">09:00 am – 10:00 pm</div>
+                  <div className="left-text">Monday: </div>
+                  <div className="right-text">8:00 am – 5:00 pm</div>
                 </div>
                 <div className="text">
-                  <div className="left-text">Saturday:</div>
-                  <div className="right-text">09:00 am – 08:00 pm</div>
+                  <div className="left-text">Tuesday:</div>
+                  <div className="right-text">8:00 am – 12:00 pm</div>
                 </div>
                 <div className="text">
-                  <div className="left-text">Sunday:</div>
-                  <div className="right-text">09:00 am – 05:00 pm</div>
+                  <div className="left-text">Wednesday:</div>
+                  <div className="right-text">8:00 am – 5:00 pm</div>
                 </div>
-                <div className="discount">
-                  Check out seasonal discounts for best offers.
+                <div className="text">
+                  <div className="left-text">Thursday:</div>
+                  <div className="right-text">8:00 am – 5:00 pm</div>
                 </div>
-              </div>
+                <div className="text">
+                  <div className="left-text">Friday:</div>
+                  <div className="right-text">CLOSED</div>
+                </div>
+                </div>
             </div>
           </div>
         </div>
