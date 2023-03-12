@@ -59,8 +59,8 @@ const Testimonial = () => {
                 data-animation="fadeInDown"
                 data-delay=".4s"
               >
-                <h5>Our Testimonial</h5>
-                <h2>What Our Clients Says</h2>
+               
+                <h2>Praise from our clients...</h2>
                 <p className="mt-15">
                 We pride ourselves on our patient feedback and once again welcome you to see what makes us unique and separates us from other physical therapy experiences.
                 </p>

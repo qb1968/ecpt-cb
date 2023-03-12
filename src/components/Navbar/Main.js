@@ -48,7 +48,7 @@ const Main = () => {
                           <Link to="/product">Products</Link>
                         </li>
                         <li className="has-sub">
-                          <Link to="/blog">Forms</Link>
+                          <Link to="/forms">Forms</Link>
                         </li>
                         
                         <li className="has-sub">
@@ -131,7 +131,7 @@ const Main = () => {
                               <Link to="/product">Products</Link>
 
                               <Link
-                                to="#"
+                                to="/product"
                                 className={`mean-expand ${
                                   show2 && "mean-clicked"
                                 }`}
@@ -144,10 +144,10 @@ const Main = () => {
                               </Link>
                             </li>
                             <li className="has-sub">
-                              <Link to="/blog">Forms</Link>
+                              <Link to="/forms">Forms</Link>
 
                               <Link
-                                to="#"
+                                to="/forms"
                                 className={`mean-expand ${
                                   show3 && "mean-clicked"
                                 }`}
@@ -159,22 +159,7 @@ const Main = () => {
                                 +
                               </Link>
                             </li>
-                            <li className="has-sub">
-                              <Link to="/blog">Testimonials</Link>
-
-                              <Link
-                                to="#"
-                                className={`mean-expand ${
-                                  show3 && "mean-clicked"
-                                }`}
-                                onClick={() =>
-                                  setshow3(show3 === true ? false : true)
-                                }
-                                style={{ fontSize: "18px" }}
-                              >
-                                +
-                              </Link>
-                            </li>
+                            
                             <li className="mean-last">
                               <Link to="/contact">Contact</Link>
                             </li>

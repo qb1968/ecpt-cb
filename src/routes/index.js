@@ -15,7 +15,7 @@ import Team from '../components/Pages/Team/Main'
 import TeamDetails from '../components/Pages/TeamDetails/Main'
 import Shop from '../components/Pages/Shop/Main'
 import ShopDetails from '../components/Pages/ShopDetails/Main'
-import Blog from '../components/BlogMain/Blog/Main'
+import Forms from '../components/BlogMain/Forms/Main'
 import BlogDetails from '../components/BlogMain/BlogDetails/Main'
 import Contact from '../components/Contact/Main'
 import Products from '../components/HomeMain/Product'
@@ -57,7 +57,7 @@ const Routing = () => {
         <Route path="/team-details" element={<TeamDetails />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/shop-details" element={<ShopDetails />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/forms" element={<Forms />} />
         <Route path="/blog-details" element={<BlogDetails />} />
         
         <Route path="/contact" element={<Contact />} />

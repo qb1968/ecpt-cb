@@ -21,15 +21,13 @@ const Appointment = () => {
               <div className="contact-bg">
                 <div className="section-title center-align">
                   <h5>Get In Touch</h5>
-                  <h2>Get Appointment</h2>
+                  <h2>Have a Question</h2>
                   <p>
-                    Aenean ut enim vel lectus rutrum sodales. Aliquam consequat
-                    augue eget enim convallis, at maximus libero ullamcorper.
-                    Cras sit amet placerat nisi.
+                    Feel free to fill out your info and submit your question. Someone will get back to you with the information you request.
                   </p>
                 </div>
                 <form
-                  action="mail.php"
+                  action="https://submit-form.com/fQxBBGr1"
                   method="post"
                   className="contact-form mt-30"
                 >
@@ -41,6 +39,17 @@ const Appointment = () => {
                           id="firstn"
                           name="firstn"
                           placeholder="First Name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="contact-field p-relative c-name mb-20">
+                        <input
+                          type="text"
+                          id="lastn"
+                          name="lastn"
+                          placeholder="Last Name"
                           required
                         />
                       </div>
@@ -59,29 +68,16 @@ const Appointment = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
-                        <select
-                          className="custom-select"
-                          id="inputGroupSelect04"
-                          aria-label="Example select with button addon"
-                        >
-                          <option> Department...</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                        <i className="fa fa-angle-down"></i>
+                       <input
+                         type="text"
+                         id="phone"
+                         name="phone"
+                         placeholder="Phone Number"
+                         required
+                         />
                       </div>
                     </div>
-                    <div className="col-lg-6">
-                      <div className="contact-field p-relative c-subject mb-20">
-                        <input
-                          type="date"
-                          id="subject"
-                          name="subject"
-                          placeholder="Subject"
-                        />
-                      </div>
-                    </div>
+                   
                     <div className="col-lg-12">
                       <div className="contact-field p-relative c-message mb-30">
                         <textarea
@@ -109,7 +105,7 @@ const Appointment = () => {
             <div className="col-lg-6">
               <div className="opening-time">
                 <div className="open-img">
-                  <img src={Img} alt="icon01" />
+                  
                 </div>
                 <h3>Opening Hours</h3>
                 <div className="text">
@@ -132,7 +128,11 @@ const Appointment = () => {
                   <div className="left-text">Friday:</div>
                   <div className="right-text">CLOSED</div>
                 </div>
+                <h4>Phone:</h4> <span>443 646 5514</span>
+                <h4>Fax: </h4><span>410 834 5504</span>
+                <h4>Email: </h4><span>beach@ecpt-cb.com</span>
                 </div>
+                
             </div>
           </div>
         </div>

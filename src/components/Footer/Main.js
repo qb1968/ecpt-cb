@@ -10,8 +10,8 @@ const Main = () => {
   return (
     <>
       <footer
-        className="footer-bg footer-p pt-10"
-        style={{ backgroundColor: "#7fb8cb"}}
+        className="footer-bg footer-p pt-20"
+        style={{ alignItems:"center",backgroundColor: "#7fb8cb"}}
       >
        
                             
@@ -21,10 +21,16 @@ const Main = () => {
                  
                   
             
-                  Copyright &copy; 2023 <Link to="#">Jonathan Allison</Link>. All rights
-                  reserved.
-                
-        
+                  
+       
+              <div className="col-lg-6">
+                <div
+                  className="copy-text"
+                  style={{fontWeight: "bold", color: "black" }}
+                >
+                  Copyright &copy; 2023Jonathan Allison. All rights reserved.
+                </div>
+              </div>  .
       </footer>
     </>
   );
