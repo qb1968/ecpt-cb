@@ -48,7 +48,7 @@ const Appointment = () => {
                         <input
                           type="text"
                           id="Last Name"
-                          name="lastn"
+                          name="Last Name"
                           placeholder="Last Name"
                           required
                         />
