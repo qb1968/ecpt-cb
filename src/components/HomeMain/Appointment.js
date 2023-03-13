@@ -37,7 +37,7 @@ const Appointment = () => {
                         <input
                           type="text"
                           id="firstn"
-                          name="firstn"
+                          name="First Name"
                           placeholder="First Name"
                           required
                         />
@@ -47,7 +47,7 @@ const Appointment = () => {
                       <div className="contact-field p-relative c-name mb-20">
                         <input
                           type="text"
-                          id="lastn"
+                          id="Last Name"
                           name="lastn"
                           placeholder="Last Name"
                           required
@@ -60,7 +60,7 @@ const Appointment = () => {
                         <input
                           type="text"
                           id="email"
-                          name="email"
+                          name="Email"
                           placeholder="Eamil"
                           required
                         />
@@ -71,7 +71,7 @@ const Appointment = () => {
                        <input
                          type="text"
                          id="phone"
-                         name="phone"
+                         name="Phone Number"
                          placeholder="Phone Number"
                          required
                          />
@@ -81,7 +81,7 @@ const Appointment = () => {
                     <div className="col-lg-12">
                       <div className="contact-field p-relative c-message mb-30">
                         <textarea
-                          name="message"
+                          name="Message"
                           id="message"
                           cols="30"
                           rows="10"
